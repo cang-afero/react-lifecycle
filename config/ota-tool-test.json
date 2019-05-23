@@ -1,0 +1,10 @@
+{
+  "ports": {
+    "http": 3000
+  },
+  "enableHttps": false,
+  "webAppConfig": {
+    "production": false,
+    "cloudEnv": "dev"
+  }
+}

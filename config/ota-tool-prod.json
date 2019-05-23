@@ -1,0 +1,11 @@
+{
+  "ports": {
+    "http": 8081
+  },
+  "logLevel": "info",
+  "enableHttps": false,
+  "webAppConfig": {
+    "production": true,
+    "cloudEnv": "prod"
+  }
+}
