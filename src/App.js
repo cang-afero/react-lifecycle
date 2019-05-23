@@ -3,7 +3,6 @@ import { Provider } from 'react-redux';
 import setupStore from './redux/setupStore';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
-import LifecycleContainer from './redux/containers/LifecycleContainer';
 import CrudContainer from './redux/containers/CrudContainer';
 
 import { createBrowserHistory } from 'history';
@@ -17,8 +16,7 @@ export default class App extends Component {
         <Provider store={store}>
           <Router>
             <Switch>
-              <Route exact path='/' component={LifecycleContainer} />
-              <Route exact path='/crud' component={CrudContainer} />
+              <Route exact path='/' component={CrudContainer} />
             </Switch>
           </Router>
         </Provider>

@@ -12,17 +12,3 @@ export default function getEmployeesProcess() {
       });
   };
 }
-
-// import getEmployees from '../../api/getEmployees';
-
-// export default function getEmployeesProcess() {
-//   return (dispatch, getState) => {
-//     return getEmployees()
-//       .then(obj => {
-//         dispatch({ type: 'GET_EMPLOYEES', employeesProfile: obj.data });
-//       })
-//       .catch(error => {
-//         console.log('getEmployeesProcess ', error);
-//       });
-//   };
-// }
